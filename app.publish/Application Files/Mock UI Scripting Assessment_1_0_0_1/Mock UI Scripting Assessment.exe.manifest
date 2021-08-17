@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Mock UI Scripting Assessment.exe" version="1.0.0.1" publicKeyToken="e3d1d79ce4bd1471" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Mock UI Scripting Assessment" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Mock UI Scripting Assessment.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Mock UI Scripting Assessment.exe" size="1788896">
+      <assemblyIdentity name="Mock UI Scripting Assessment" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>DduDR17pOPrDqMTAzY633pICm+6CECt0yVYPuMrAb10=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Mock UI Scripting Assessment.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-FTGM4D5\ashef" issuerKeyHash="bc204b76bc2b5532eb0dd33d360864be5c9aef00" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>38KEZThEpIab15oQElx+o0KIr18MUlkqs6LgNHyQzeo=</DigestValue></Reference></SignedInfo><SignatureValue>ZPf+NWpgAmcWST5DZIMtuEaQEm2qZQiDqxdfKnpi1k8SC/kHs9fArEC57zpGYYUrwVGlOUsOkuupEM2UD5868I9/yrmur35GZM9pK89rEMK+Rl7gkX7FtqfamQ0hCx4ifaoPlpMgt7iXYFwCAstwSlBn2/yEwg8X39DSIVGtqv0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vrk3+gUM3TBddkHXY7HQxt+y+Zz3PlTL3SPW3kjLBw+0GCdCoRSFvDKmFflembruSOVi4vb01nb2g2f5aQEIJKH04gClcIiR8Ksb8aO4bleXZUQGCoboWrZsgx/kcCovXaUxF6xM1oRmL7vt6BGUiEoz0B06MnRuLvSLu6aXItE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="eacd907c34e0a2b32a59520c5faf8842a37e5c12109ad79b86a444386584c2df" Description="" Url=""><as:assemblyIdentity name="Mock UI Scripting Assessment.exe" version="1.0.0.1" publicKeyToken="e3d1d79ce4bd1471" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-FTGM4D5\ashef</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MnfAiLwtOE+X2AxhZnGYOfPkJ0cBKqSXMtNZqxpp8U4=</DigestValue></Reference></SignedInfo><SignatureValue>V0IEoF2svkrAzITqhNfqP1aG4UwXhQbLAXgHkitai8i4f8jD2kxaUQvl046dvDGHDSV0qZHL4OEWyJRUJRiBNMJsXQhMuBrdVRDXJlAiO6OmTFQHjee0Tm4ErempXPVBEks332FD4vpqLXk0WRsBbsQZaovDLC0pbuzws3WU6ws=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vrk3+gUM3TBddkHXY7HQxt+y+Zz3PlTL3SPW3kjLBw+0GCdCoRSFvDKmFflembruSOVi4vb01nb2g2f5aQEIJKH04gClcIiR8Ksb8aO4bleXZUQGCoboWrZsgx/kcCovXaUxF6xM1oRmL7vt6BGUiEoz0B06MnRuLvSLu6aXItE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQaD/doWuzNapPqb+lYynXSDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEYAVABHAE0ANABEADUAXABhAHMAaABlAGYwHhcNMjEwODE3MTEyMDAyWhcNMjIwODE3MTcyMDAyWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEYAVABHAE0ANABEADUAXABhAHMAaABlAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL65N/oFDN0wXXZB12Ox0Mbfsvmc9z5Uy90j1t5IywcPtBgnQqEUhbwyphX5Xpm67kjlYuL29NZ29oNn+WkBCCSh9OIApXCIkfCrG/GjuG5Xl2VEBgqG6Fq2bIMf5HAqL12lMResTNaEZi+77egRlIhKM9AdOjJ0bi70i7umlyLRAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAJLeROiy8ar18ZjepXPbFVveQLlijl+ZnGak4SNgR1fxYtsnVz+w+j8YasrOegQjMCOfbiyQ3jcHK4xWY+CWgUs7ukZgrekvaklvHWhJdfTne2MmCEc3FchQNj8U7eujgxQaYU4G0DtjeWfSfcmKETUeE7VqvkBjTinSWElhHLcE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
